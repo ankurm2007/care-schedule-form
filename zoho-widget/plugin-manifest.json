@@ -1,0 +1,18 @@
+
+{
+    "service": "appointment_form_widget",
+    "displayName": "Medical Appointment Form",
+    "description": "A comprehensive medical appointment booking form widget",
+    "version": "1.0.0",
+    "category": "form",
+    "author": "Medical Center",
+    "supportedDevices": ["desktop", "mobile"],
+    "html": "appointment-form.html",
+    "css": "",
+    "js": "",
+    "properties": [],
+    "minWidth": 400,
+    "minHeight": 600,
+    "maxWidth": 1200,
+    "maxHeight": 2000
+}
