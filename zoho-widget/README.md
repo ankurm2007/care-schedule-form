@@ -5,15 +5,19 @@ This folder contains the files needed to create a Zoho Creator widget for the me
 
 ## Files Included
 
-1. **appointment-form.html** - The main HTML file containing the complete appointment form
-2. **plugin-manifest.json** - The manifest file required by Zoho Creator
-3. **README.md** - This instruction file
+1. **index.html** - The main HTML file containing the complete appointment form structure
+2. **style.css** - All CSS styling for the form and responsive design
+3. **script.js** - JavaScript functionality for form validation, submission, and interactions
+4. **manifest.json** - The manifest file required by Zoho Creator
+5. **README.md** - This instruction file
 
 ## How to Create the Zoho Creator Widget
 
-1. **Create a ZIP file** containing both files:
-   - appointment-form.html
-   - plugin-manifest.json
+1. **Create a ZIP file** containing all four files:
+   - index.html
+   - style.css
+   - script.js
+   - manifest.json
 
 2. **Upload to Zoho Creator**:
    - Go to your Zoho Creator application
@@ -28,14 +32,20 @@ This folder contains the files needed to create a Zoho Creator widget for the me
    - Professional styling that matches modern web standards
    - All form data logged to console (can be modified to send to your backend)
 
+## File Structure
+
+- **index.html**: Contains the HTML structure with form fields organized in sections
+- **style.css**: Responsive CSS styling with modern design and animations
+- **script.js**: Form validation, submission handling, and toast notifications
+- **manifest.json**: Zoho Creator widget configuration
+
 ## Customization
 
-You can modify the HTML file to:
-- Change styling colors and fonts
-- Add or remove form fields
-- Modify validation rules
-- Change the form submission behavior
-- Add integration with your backend API
+You can modify the files to:
+- **style.css**: Change styling colors, fonts, and layout
+- **index.html**: Add or remove form fields, modify structure
+- **script.js**: Modify validation rules, change form submission behavior, add API integration
+- **manifest.json**: Update widget metadata and configuration
 
 ## Form Data Structure
 
